@@ -1,0 +1,49 @@
+{
+	"name": "gulp-starter-html",
+	"version": "1.0.0",
+	"description": "Collector of projects for implementation of web-projects",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "run test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GrafSoul/gulp-starter-html.git"
+	},
+	"keywords": [
+		"project",
+		"front-end",
+		"web",
+		"html",
+		"css",
+		"js",
+		"sass",
+		"gulp"
+	],
+	"author": "Dmitriy Zatulovskiy",
+	"license": "MIT",
+	"homepage": "https://github.com/GrafSoul",
+	"devDependencies": {
+		"browser-sync": "^2.26.7",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-filesize": "0.0.6",
+		"gulp-htmlhint": "^3.0.1",
+		"gulp-if": "^3.0.0",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-jshint": "^2.1.0",
+		"gulp-load-plugins": "^2.0.3",
+		"gulp-notify": "^3.2.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-svg-sprite": "^1.5.0",
+		"gulp-uglify": "^3.0.2",
+		"gulp-zip": "^5.0.2",
+		"gulp.spritesmith": "^6.11.0",
+		"imagemin-pngquant": "^9.0.0"
+	}
+}

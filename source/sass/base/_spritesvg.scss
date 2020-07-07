@@ -1,0 +1,84 @@
+%svg-common {
+	background: url("spritesvg.svg") no-repeat;
+}
+
+.svg-500px {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-500px-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-accessibility {
+	@extend %svg-common;
+	background-position: 50% 0;
+}
+
+.svg-accessibility-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-address-book {
+	@extend %svg-common;
+	background-position: 0 50%;
+}
+
+.svg-address-book-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-aid-kit {
+	@extend %svg-common;
+	background-position: 50% 50%;
+}
+
+.svg-aid-kit-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-airplane {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.svg-airplane-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-alarm {
+	@extend %svg-common;
+	background-position: 100% 50%;
+}
+
+.svg-alarm-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-amazon {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.svg-amazon-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-android {
+	@extend %svg-common;
+	background-position: 50% 100%;
+}
+
+.svg-android-dims {
+	width: 52px;
+	height: 52px;
+}
+

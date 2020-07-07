@@ -1,0 +1,1 @@
+	npm install	browser-sync gulp gulp-autoprefixer	gulp-clean-css gulp-concat gulp-filesize gulp-htmlhint gulp-if gulp-imagemin gulp-jshint	gulp-load-plugins gulp-notify gulp-plumber gulp-rename gulp-sass gulp-sourcemaps gulp-svg-sprite gulp-uglify gulp-zip gulp.spritesmith imagemin-pngquant --save-dev

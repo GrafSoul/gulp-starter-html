@@ -7,6 +7,11 @@ To work with Frontend Builder, install [Node.js] and [Yarn].
 #### Clone, Install and Run.
 
 ```$js
+// Install gulp globally
+npm install -g gulp
+// or
+yarn add -g gulp
+
 git clone https://github.com/GrafSoul/gulp-starter-html.git
 cd frontend-builder-html
 

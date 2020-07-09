@@ -10,21 +10,13 @@
 // Server
 // =========================================================================
 
-module.exports = function (gulp, browserSync, config) {
-	return function () {
-		browserSync.init({
-			server: {
-				baseDir: config.output.path
-			}
-		});
-
-		gulp.watch(config.input.sassfiles, ['sass']);
-		gulp.watch(config.input.html, ['html']);
-		gulp.watch(config.input.js, ['js']);
-		gulp.watch(config.input.fonts, ['fonts']);
-		gulp.watch(config.input.video, ['video']);
-		gulp.watch(config.input.images, ['imagemin']);
-		gulp.watch(config.input.pngSprite, ['pngsprite']);
-		gulp.watch(config.input.svgSprite + '*.*', ['svgsprite']);
-	};
+module.exports = function (browserSync, config) {
+    return function server(done) {
+        browserSync.init({
+            server: {
+                baseDir: config.output.path,
+            },
+        });
+        done();
+    };
 };

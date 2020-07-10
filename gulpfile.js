@@ -122,7 +122,7 @@ const server = require('./tasks/server')(browserSync, config);
 
 // Watch
 // =========================================================================
-function watch_files() {
+function watch_files(done) {
     gulp.watch(config.input.sassfiles, gulp.series(sass));
     gulp.watch(config.input.html, gulp.series(html));
     gulp.watch(config.input.js, gulp.series(js));
@@ -131,6 +131,7 @@ function watch_files() {
     gulp.watch(config.input.images, gulp.series(imageMin));
     gulp.watch(config.input.pngSprite, gulp.series(pngSprite));
     gulp.watch(config.input.svgSprite + '*.*', gulp.series(svgSprite));
+    done();
 }
 
 // Watch default

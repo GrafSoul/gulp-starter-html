@@ -46,6 +46,6 @@
 		"gulp.spritesmith": "^6.11.0",
 		"imagemin-pngquant": "^9.0.1",
 		"jshint": "^2.12.0",
-		"node-sass": "^5.0.0"
+		"node-sass": "^7.0.0"
 	}
 }

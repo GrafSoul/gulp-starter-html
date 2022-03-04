@@ -9,14 +9,14 @@
 // =========================================================================
 // SASS
 // =========================================================================
-const pipeSass = require('gulp-sass')(require('sass'));
+const gulpSass = require('gulp-sass')(require('sass'));
 
 module.exports = function (gulp, plugins, config, browserSync, errors) {
     return function sass(done) {
         gulp.src(config.input.sass)
             .pipe(plugins.plumber({ errorHandler: errors }))
             .pipe(plugins.if(config.develop, plugins.sourcemaps.init()))
-            .pipe(pipeSass())
+            .pipe(gulpSass())
             .pipe(plugins.rename({ basename: 'style', suffix: '.min' }))
             .pipe(
                 plugins.autoprefixer({
